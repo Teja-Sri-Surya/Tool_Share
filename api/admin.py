@@ -1,0 +1,20 @@
+from django.contrib import admin
+from .models import UserProfile, Tool, BorrowRequest, Feedback, RentalTransaction, Availability, Message, UserReview, ApplicationReview, Deposit, DepositTransaction, FlexibleAvailability, RecurringAvailability, HourlyAvailability, UserVerification, Dispute, DisputeMessage
+
+admin.site.register(UserProfile)
+admin.site.register(Tool)
+admin.site.register(BorrowRequest)
+admin.site.register(Feedback)
+admin.site.register(RentalTransaction)
+admin.site.register(Availability)
+admin.site.register(Message)
+admin.site.register(UserReview)
+admin.site.register(ApplicationReview)
+admin.site.register(Deposit)
+admin.site.register(DepositTransaction)
+admin.site.register(FlexibleAvailability)
+admin.site.register(RecurringAvailability)
+admin.site.register(HourlyAvailability)
+admin.site.register(UserVerification)
+admin.site.register(Dispute)
+admin.site.register(DisputeMessage)
